@@ -59,6 +59,14 @@
   box-sizing: border-box;
 }
 
+.light-text {
+  color: #fff;
+}
+
+.ColorBox .dark-text {
+  color: #121212;
+}
+
 .see-more {
   background-color: rgba(255, 255, 255, 0.3);
   position: absolute;

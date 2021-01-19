@@ -28,13 +28,13 @@ class Palette extends Component {
       <ColorBox
         background={color[format]}
         name={color.name}
-        key={id}
+        key={color.name}
         moreUrl={`/palette/${id}/${color.id}`}
         showLink={true}
       />
     ));
     return (
-      <div class="Palette">
+      <div className="Palette">
         <Navbar
           isSingleColorShades={true}
           level={level}
